@@ -1,0 +1,7 @@
+site_name: madlib
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: madlib
+          class: madlib-class
+          format: !!python/name:madlib.formatter
